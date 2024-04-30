@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #4682b4;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  color: beige;
+}
+.destination {
+  font-size: 50px;
+}
+.destination:hover {
+  transition: all 0.4s ease-out 0.2s;
+  color: rgb(233, 217, 248);
+}
+li,
+a,
+button {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(245, 243, 133);
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border: 1px solid black;
+}
+.logo {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0.1s;
+}
+.nav__links li a:hover {
+  color: black;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(170, 98, 5);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+button:hover {
+  transition: all 0.3s ease 0.1s;
+  background-color: rgb(170, 98, 5, 0.8);
+}
